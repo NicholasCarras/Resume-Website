@@ -21,8 +21,8 @@ export default function AboutPage() {
         <div className="about-grid">
           <div className="about-art reveal">
             <img
-              src="/images/explorer.webp"
-              alt="A futuristic explorer robot in white ceramic and titanium, illuminated by blue light."
+              src="/images/Me.jpeg"
+              alt="Nicholas Carrasquilla"
               width={1536}
               height={1024}
             />
@@ -34,9 +34,6 @@ export default function AboutPage() {
             {profile.about.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
-            <ExampleNote>
-              Sample biography · make this story your own.
-            </ExampleNote>
           </div>
         </div>
         <span className="eyebrow">What keeps me looking forward</span>

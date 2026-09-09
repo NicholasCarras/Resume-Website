@@ -30,13 +30,11 @@ export const profile = {
   resumeUrl: "/public/documents/Resume.pdf",
   exampleContent: true,
   about: [
-    "I’m a software engineer drawn to the moment an idea becomes something you can actually use. A few lines of code. A working prototype. A small piece of the future, here a little sooner.",
-    "My interests live somewhere between software engineering, intelligent systems, and space exploration. I like understanding how things work—and finding ways to make them work better.",
-    "Away from the screen, curiosity is still the common thread. There’s always another question to follow, another thing to take apart, and another reason to keep learning.",
+    "Hey, my name is Nick. I'm a software engineer who is all about new frontiers. I love being apart of teams who develop amazing things and I would love to have a hand in technology that pushes the limits of what we currently know. For me, life is all about exploring and finding out the reason we are all here. Fun fact about me, My favorite thing to learn about is space and I would love to go there... except i'm afraid of heights which is ironic becuase once you get there height no longer matters anyways haha. Hmm kinda seems like there is some lesson to be taken away from this.",
   ],
 };
 
-// Example case studies. Replace with your own work before sharing publicly.
+
 export const projects: Project[] = [
   {
     slug: "orbital",
@@ -174,38 +172,76 @@ export const skillGroups = [
 
 export const experience = [
   {
-    period: "20XX — Present",
-    role: "Your current role",
-    organization: "Company or organization",
+    period: "March 2026 - Current",
+    role: "Software Engineering Intern",
+    organization: "Tarket",
     description:
-      "Introduce your current work and the kind of problems you solve.",
+      "So the answer is yes... I leaned into another job leveraging my military background. This was an interesting position that renewed my security clearence again. Here is a little about it:\n\n",
     highlights: [
-      "Add a specific contribution and explain its impact.",
-      "Describe a system, feature, or initiative you helped deliver.",
+      " Monitored high-security environments, demonstrating strong attention to detail, situational awareness, and rapid decision-making skills.",
+      " Collaborated with personnel across teams to support safe operations and ensure compliance with established procedures and standards.",
     ],
-    tags: ["Your stack", "Your focus"],
+    tags: ["Classified Document Handling", "Collaboration", "Security Clearence", "Time Management", "Interpersonal Skills"],
   },
   {
-    period: "20XX — 20XX",
-    role: "Your previous role",
-    organization: "Company or organization",
-    description: "Describe the next chapter in your engineering journey.",
+    period: "January 2023 - October 2023 / January 2025 - March 2026",
+    role: "Armed Security",
+    organization: "Lockheed Martin",
+    description:
+      "So the answer is yes... I leaned into another job leveraging my military background. This was an interesting position that renewed my security clearence again. Here is a little about it:\n\n",
     highlights: [
-      "Highlight a meaningful technical challenge.",
-      "Share what you learned or improved along the way.",
+      " Monitored high-security environments, demonstrating strong attention to detail, situational awareness, and rapid decision-making skills.",
+      " Collaborated with personnel across teams to support safe operations and ensure compliance with established procedures and standards.",
     ],
-    tags: ["Your stack", "Your focus"],
+    tags: ["Classified Document Handling", "Collaboration", "Security Clearence", "Time Management", "Interpersonal Skills"],
   },
   {
-    period: "20XX",
-    role: "Where it started",
-    organization: "Education or first milestone",
+    period: "January 2023 - October 2023 / January 2025 - March 2026",
+    role: "Parking Engineer",
+    organization: "Atlanta Braves",
     description:
-      "Add your education, training, or the project that started it all.",
+      "As you might be wondering... yes parking engineer is long for valet. This was an amazing opportunity for me while in college that gave me good networking skills belive it or not. I also did two tours here so thats why the time has a gap in it. Here is a little about it:\n\n",
     highlights: [
-      "Include a qualification, an achievement, or a formative experience.",
+      "Delivered professional, personable customer service by greeting guests, addressing needs, and creating a positive first impression in a fast-paced environment.",
+      "Built strong communication and interpersonal skills through daily interactions with customers, coworkers, and business professionals from diverse backgrounds.",
+      "Developed networking and relationship-building skills by establishing rapport with repeat customers and maintaining professional connections.",
+      "Demonstrated reliability, teamwork, time management, and problem-solving while coordinating vehicle retrieval and responding efficiently to customer requests.",
     ],
-    tags: ["Learning", "Foundations"],
+    tags: ["Communication", "Networking", "Team Building"],
+  },
+  {
+    period: "January 2023 - December 2026",
+    role: "Student",
+    organization: "Kennesaw State University",
+    description: "After finishing my time in the Marine Corps, I started my journey into higher education. Now I've always had a passion for technology and science so I landed on software engineering.\n\n",
+    highlights: [
+      "Learned Java, C++ and many other developer skills",
+      "Collaborated with classmates on projects",
+      "Practiced the software development life cycle",
+      "Learned OOP design principles and best practices",
+      "Overall broadened my knowledge with so much more",
+    ],
+    tags: ["Java", "SQL", "C++", "Python", "Algorithms", "Software Engineering", "Data Structures", "Git/GitHub", "SDLC", "SOLID"],
+  },
+  {
+    period: "January 2019 - January 2023",
+    role: "United States Marine",
+    organization: "United States Marine Corps",
+    description: [
+      "Now I know this isn't what you excpected but yes, I started the journey of my professional life as a United States Marine.",
+      " I served my country for four years which ended up teaching me a lot about life as well as important leadership and soft skills.",
+      " Here is a little about what I did:\n\n"
+    ],
+
+    highlights: [
+      " Managed and maintained over $200M in mission-critical equipment, ensuring operational readiness and full accountability",
+      " Utilized GCSS (ERP system) to track inventory, maintenance schedules, and asset lifecycle data, maintaining high data accuracy",
+      " Oversaw inventory control and maintenance workflows, improving tracking efficiency and reliability through structured processes",
+      " Utilized radar systems to support mission execution and ensure operational objectives were met in time-sensitive environments",
+      " Led, trained, and mentored personnel in high-tempo environments, improving team performance, accountability, and mission execution",
+
+    ],
+    tags: ["Leadership", "Time Management", "Complex Problem Solving", "Team Building/Collaboration", "Structure"],
   },
 ];
 

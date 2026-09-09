@@ -41,7 +41,7 @@ export default function ExperiencePage() {
                 <span className="timeline-period mono">{entry.period}</span>
                 <h2>{entry.role}</h2>
                 <h3>{entry.organization}</h3>
-                <p>{entry.description}</p>
+                <p style={{ whiteSpace: "pre-line" }}>{entry.description}</p>
                 <ul>
                   {entry.highlights.map((highlight) => (
                     <li key={highlight}>{highlight}</li>
