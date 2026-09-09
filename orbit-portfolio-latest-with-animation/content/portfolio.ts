@@ -16,19 +16,18 @@ export type Project = {
   imageAlt?: string;
 };
 
-// Edit your content here. Empty links stay hidden until you add your own.
 export const profile = {
-  brand: "ORBIT",
-  name: "Your Name",
-  role: "Software engineer & curious human",
+  brand: "Nicholas Carrasquilla's Portfolio",
+  name: "Nicholas Carrasquilla",
+  role: "Software Engineer & Curious Human",
   headline: ["Engineering", "what’s next."],
   introduction:
-    "Thoughtful software. Intelligent systems. A curiosity for what’s possible—and the drive to build it.",
+    "Thoughtful software. Intelligent systems. A curiosity for what’s possible and the drive to build it.",
   location: "Planet Earth",
-  email: "",
-  githubUrl: "",
-  linkedinUrl: "",
-  resumeUrl: "",
+  email: "carrasquilla.nicholas@gmail.com",
+  githubUrl: "https://github.com/NicholasCarras",
+  linkedinUrl: "https://linkedin.com/in/nicholascarrasquilla",
+  resumeUrl: "/public/documents/Resume.pdf",
   exampleContent: true,
   about: [
     "I’m a software engineer drawn to the moment an idea becomes something you can actually use. A few lines of code. A working prototype. A small piece of the future, here a little sooner.",
