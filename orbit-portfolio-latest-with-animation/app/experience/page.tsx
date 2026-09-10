@@ -26,10 +26,8 @@ export default function ExperiencePage() {
             </div>
             <div>
               <p className="muted" style={{ lineHeight: 1.85 }}>
-                Every new challenge adds another layer. Better questions.
-                Clearer thinking. More thoughtful code.
+                "The only true wisdom is in knowing you know nothing." - Socrates
               </p>
-              <ExampleNote>Add your roles and milestones here.</ExampleNote>
             </div>
           </aside>
           <div className="timeline">

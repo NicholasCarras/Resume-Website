@@ -30,7 +30,7 @@ export const profile = {
   resumeUrl: "/public/documents/Resume.pdf",
   exampleContent: true,
   about: [
-    "Hey, my name is Nick. I'm a software engineer who is all about new frontiers. I love being apart of teams who develop amazing things and I would love to have a hand in technology that pushes the limits of what we currently know. For me, life is all about exploring and finding out the reason we are all here. Fun fact about me, My favorite thing to learn about is space and I would love to go there... except i'm afraid of heights which is ironic becuase once you get there height no longer matters anyways haha. Hmm kinda seems like there is some lesson to be taken away from this.",
+    "Hey, my name is Nick. I'm a software engineer who is all about new frontiers. I love being apart of teams who develop amazing things and I would love to have a hand in technology that pushes the limits of what we currently know. For me, life is all about exploring and finding out the reason we are all here. Fun fact about me, my favorite thing to learn about is space and I would love to go there... except I'm afraid of heights which is ironic becuase once you get there height no longer matters anyways haha. Hmm kinda seems like there is some lesson to be taken away from this.",
   ],
 };
 
@@ -97,19 +97,19 @@ export const projects: Project[] = [
 
 export const skillGroups = [
   {
-    id: "interfaces",
-    label: "Interfaces",
+    id: "Software Development Foundations",
+    label: "Software Development Foundations",
     number: "01",
-    title: "Ideas into interfaces.",
+    title: "Ideas into reality.",
     description:
-      "Building the part people see, touch, and remember. Responsive experiences with careful attention to interaction and accessibility.",
+      "From ideas to creations",
     skills: [
-      "TypeScript",
-      "React",
-      "Next.js",
+      "Java",
+      "Python",
+      "C++",
       "HTML & CSS",
-      "Three.js",
-      "Accessibility",
+      "Ignition",
+      "Spring Boot",
     ],
     projectSlug: "orbital",
     color: "#b8a4ff",
@@ -122,8 +122,8 @@ export const skillGroups = [
     description:
       "Connecting data, services, and decisions. APIs and application architecture that keep the entire experience working together.",
     skills: [
-      "Node.js",
-      "Python",
+      "MSSQL",
+      "Postman",
       "REST APIs",
       "PostgreSQL",
       "System design",
@@ -141,11 +141,11 @@ export const skillGroups = [
       "Turning a working idea into a dependable release. Clear workflows, repeatable deployments, and a habit of improving what ships.",
     skills: [
       "Git",
-      "GitHub Actions",
+      "GitHub",
       "Docker",
-      "Cloud platforms",
-      "CI/CD",
-      "Observability",
+      "Scrum",
+      "GitLab",
+      "Agile",
     ],
     projectSlug: "signal",
     color: "#b9efb0",
@@ -156,14 +156,14 @@ export const skillGroups = [
     number: "04",
     title: "Always another frontier.",
     description:
-      "Following the questions that lead somewhere new. Experimenting with intelligent systems, physical computing, and immersive experiences.",
+      "Following the questions that lead somewhere new. These are the things Im interested in exploring",
     skills: [
       "Robotics",
       "Machine learning",
-      "Computer vision",
-      "Automation",
-      "WebGL",
-      "Prototyping",
+      "AGI",
+      "Embedded Systems",
+      "DevOps",
+      "Systems Engineering",
     ],
     projectSlug: "automata",
     color: "#f3bb8a",
@@ -176,12 +176,17 @@ export const experience = [
     role: "Software Engineering Intern",
     organization: "Tarket",
     description:
-      "So the answer is yes... I leaned into another job leveraging my military background. This was an interesting position that renewed my security clearence again. Here is a little about it:\n\n",
+      "Woohoo! I did it, I got an internship! Honestly, it was a lot of work to get here. Many SWE students only dream of having an internship before graduating. Was it luck... or dedication. I say a bit of both haha. All jokes aside, I have learned so much from this amazing opportunity which I believe gives me a jumpstart to my career. Here is a little about it:\n\n",
     highlights: [
-      " Monitored high-security environments, demonstrating strong attention to detail, situational awareness, and rapid decision-making skills.",
-      " Collaborated with personnel across teams to support safe operations and ensure compliance with established procedures and standards.",
+      "Developed operator-facing user interfaces for industrial automation systems using ignition, improving usability and real-time interaction with operational data",
+      "Integrated Python scripting into UI applications to automate workflows, process data, and enhance system functionality",
+      "Designed, wrote, and optimized SQL queries in Microsoft SQL Server to connect backend data with operator-facing applications",
+      "Engineered a custom enterprise platform plugin using Java, leveraging OOP principles and abstract classes to encapsulate low-level networking logic and expose robust, type-safe APIs to an embedded scripting runtime.",
+      "Collaborated with cross-functional engineering teams to implement system enhancements and improve operational efficiency",
+      "Applied Agile methodologies throughout the software development lifecycle, collaborating with cross-functional teams through iterative development, testing, feedback, and continuous improvement.",
+
     ],
-    tags: ["Classified Document Handling", "Collaboration", "Security Clearence", "Time Management", "Interpersonal Skills"],
+    tags: ["Python", "Java", "MSSQL", "Agile Methodologies", "SDLC", "Cross-Functional Team Collaboration", "Automation", "User Interfaces", "Traceability"],
   },
   {
     period: "January 2023 - October 2023 / January 2025 - March 2026",

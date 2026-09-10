@@ -16,13 +16,12 @@ export default function SkillsPage() {
           eyebrow="The engineering toolkit"
           number="02"
           title="Built across the stack."
-          description="Good software connects many disciplines. Explore the layers—from the interface to the systems running underneath."
+          description="Good software connects many disciplines. See what I've used."
         />
         <SkillsShowcase />
         <div className="skill-footer-note">
           <ExampleNote>
-            Sample skill groups. Keep the technologies you use, add your
-            strengths, and link them to your own projects.
+            Some of these skills I know better than others but I'm always commited to learning more.
           </ExampleNote>
         </div>
       </div>
