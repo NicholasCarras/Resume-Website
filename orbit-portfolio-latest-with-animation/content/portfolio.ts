@@ -49,30 +49,30 @@ export const projects: Project[] = [
     demoUrl: "",
     sourceUrl: "",
     challenge:
-      "Complex systems produce a lot of information. This example explores how an operations interface could make the important signals easier to find.",
+      "Creating a system of connected nodes that allowed for easy monitoring of status and health metrics.",
     approach:
-      "Describe your architecture, the decisions you made, and the trade-offs behind them. Add screenshots of the real product and explain your specific contribution.",
+      "Implemented a distributed system of nodes that allowed for creation of new nodes as well as deletion while maintaining status and alerts for changes.",
     outcome:
-      "Replace this example with an honest account of what shipped, what you learned, and any measurable results you can support.",
+      "Delivered a reliable way to track if nodes are alive or when they last were alive.",
   },
   {
-    slug: "automata",
-    name: "Automata",
-    category: "Robotics & automation",
+    slug: "sysadmin-copilot",
+    name: "Sysadmin Copilot",
+    category: "MCP Server/Agentic Architecture",
     summary:
-      "Connecting software to the physical world. An exploration of intelligent automation.",
-    tags: ["Python", "Computer vision", "APIs"],
+      "Triage AI agent that can quickly and efficiently diagnose linux related issues and resolve them autonomously.",
+    tags: ["Python", "MCP", "AI Agents", "Linux", "Linux Containers"],
     visual: "robot",
-    year: "20XX",
-    role: "Your role",
+    year: "2026",
+    role: "Agent Architecture Developer/LLM Developer",
     demoUrl: "",
     sourceUrl: "",
     challenge:
-      "Moving from a digital decision to a physical action introduces uncertainty. This example is a place for a robotics, automation, or AI project.",
+      "Capturing the power from new age artificial intelligence and implementing it in a way to solve modern day problems.",
     approach:
-      "Walk through the inputs, the decision-making process, and the system’s response. Include the reliability and safety considerations relevant to your actual project.",
+      "Create an AI triage agent that can assess the current state of a linux enviroment and quicly resolve any issues as well as sorting users permissions.",
     outcome:
-      "Add a working demonstration, a concise result, or the lesson that changed your next iteration. This is sample content, not a completed project.",
+      "Developed the agents architecture and gave it the necessary tools and permissions to accomplish our goal.",
   },
   {
     slug: "signal",
