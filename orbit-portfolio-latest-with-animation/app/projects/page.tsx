@@ -20,10 +20,6 @@ export default function ProjectsPage() {
           description="A closer look at the things I build, the problems, the decisions, and the code that brings them together."
         />
         <div style={{ marginTop: -32, marginBottom: 36 }}>
-          <ExampleNote>
-            Illustrative project concepts. Replace these with your own case
-            studies.
-          </ExampleNote>
         </div>
         <div className="project-grid">
           {projects.map((project, index) => (

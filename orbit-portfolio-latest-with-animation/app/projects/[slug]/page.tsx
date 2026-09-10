@@ -42,9 +42,6 @@ export default async function ProjectPage({ params }: PageProps) {
           <span className="eyebrow">{project.category}</span>
           <h1>{project.name}</h1>
           <p>{project.summary}</p>
-          <ExampleNote>
-            Example case study · not a claim of completed work.
-          </ExampleNote>
         </header>
         <dl className="detail-meta">
           <div>
@@ -102,7 +99,7 @@ export default async function ProjectPage({ params }: PageProps) {
               !project.demoUrl &&
               !project.sourceUrl && (
                 <p className="example-note">
-                  Demo and source links will appear when you add them.
+                  
                 </p>
               )}
           </div>

@@ -75,23 +75,23 @@ export const projects: Project[] = [
       "Developed the agents architecture and gave it the necessary tools and permissions to accomplish our goal.",
   },
   {
-    slug: "signal",
-    name: "Signal",
-    category: "Developer tools",
+    slug: "module",
+    name: "Enterprise Module For Networking",
+    category: "Java/OOP",
     summary:
-      "Less friction, more building. A concept for tools that help developers stay in flow.",
-    tags: ["Next.js", "PostgreSQL", "Docker"],
+      "Enabling a way to access networking functionallities without cutting corners.",
+    tags: ["Java", "Embedded Scripting", "OOP"],
     visual: "signal",
-    year: "20XX",
-    role: "Your role",
+    year: "2026",
+    role: "Developer",
     demoUrl: "",
     sourceUrl: "",
     challenge:
-      "Small interruptions add up. This example introduces a tool designed around a recurring problem in a developer’s everyday workflow.",
+      "Embedded scripts needed a simple, reliable way to access low-level networking functionality without managing its underlying complexity.",
     approach:
-      "Explain how you identified the problem, what you built, and which details made the experience more useful. Keep the focus on your own engineering decisions.",
+      "Built a custom Java plugin using OOP and abstract classes to encapsulate networking logic and expose clean, type-safe APIs to the scripting runtime.",
     outcome:
-      "Replace this paragraph with feedback, adoption, performance improvements, or what you learned from building the tool.",
+      "Created a reusable interface that simplified network operations while improving maintainability, extensibility, and separation between Java and scripting layers.",
   },
 ];
 
