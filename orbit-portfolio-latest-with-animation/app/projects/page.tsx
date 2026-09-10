@@ -17,7 +17,7 @@ export default function ProjectsPage() {
           eyebrow="Selected projects"
           number="01"
           title="From possibility to production."
-          description="A closer look at the things I build—the problems, the decisions, and the code that brings them together."
+          description="A closer look at the things I build, the problems, the decisions, and the code that brings them together."
         />
         <div style={{ marginTop: -32, marginBottom: 36 }}>
           <ExampleNote>

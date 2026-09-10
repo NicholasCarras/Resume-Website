@@ -28,7 +28,7 @@ export const profile = {
   githubUrl: "https://github.com/NicholasCarras",
   linkedinUrl: "https://linkedin.com/in/nicholascarrasquilla",
   resumeUrl: "/public/documents/Resume.pdf",
-  exampleContent: true,
+  exampleContent: false,
   about: [
     "Hey, my name is Nick. I'm a software engineer who is all about new frontiers. I love being apart of teams who develop amazing things and I would love to have a hand in technology that pushes the limits of what we currently know. For me, life is all about exploring and finding out the reason we are all here. Fun fact about me, my favorite thing to learn about is space and I would love to go there... except I'm afraid of heights which is ironic becuase once you get there height no longer matters anyways haha. Hmm kinda seems like there is some lesson to be taken away from this.",
   ],
@@ -37,15 +37,15 @@ export const profile = {
 
 export const projects: Project[] = [
   {
-    slug: "orbital",
-    name: "Orbital",
-    category: "Full-stack development",
+    slug: "fault-tolerant-distributed-monitoring-system",
+    name: "Fault-Tolerant Distributed Monitoring System",
+    category: "Backend Development",
     summary:
-      "A clearer view of complex systems. A concept for a real-time operations workspace.",
-    tags: ["TypeScript", "React", "Node.js"],
+      "A distributed system of nodes that track health and statuses.",
+    tags: ["Java", "REST APIs", "Postgre SQL"],
     visual: "orbit",
-    year: "20XX",
-    role: "Your role",
+    year: "2026",
+    role: "Owner/Developer",
     demoUrl: "",
     sourceUrl: "",
     challenge:
